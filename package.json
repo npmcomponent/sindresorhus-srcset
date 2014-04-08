@@ -1,7 +1,7 @@
 {
-  "name": "srcset",
-  "version": "0.1.0",
+  "name": "sindresorhus-srcset",
   "description": "Parse and stringify the HTML <img> srcset attribute",
+  "version": "0.1.0",
   "keywords": [
     "html",
     "attribute",
@@ -11,36 +11,7 @@
     "parse",
     "stringify"
   ],
-  "homepage": "https://github.com/sindresorhus/srcset",
-  "bugs": "https://github.com/sindresorhus/srcset/issues",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
-  },
-  "main": "srcset",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/sindresorhus/srcset.git"
-  },
-  "scripts": {
-    "test": "mocha && phantomjs node_modules/mocha-phantomjs/lib/mocha-phantomjs.coffee test/test.html"
-  },
-  "devDependencies": {
-    "mocha": "~1.12.0",
-    "chai": "~1.7.2",
-    "phantomjs": "~1.9.0",
-    "mocha-phantomjs": "~3.1.1"
-  },
-  "engines": {
-    "node": ">=0.8.0"
-  },
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ],
-  "files": [
-    "srcset.js"
-  ]
+  "main": "srcset.js",
+  "dependencies": {},
+  "license": "MIT"
 }
